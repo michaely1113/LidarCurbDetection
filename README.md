@@ -14,6 +14,7 @@ http://pugetsoundlidar.ess.washington.edu/lidardata/account.php
  http://pugetsoundlidar.ess.washington.edu/lidardata/restricted/las/pslc2016/KingCounty_Delivery_1/
 
 .laz is compressed version of .las. You usually work with .las. Here’s how to go from .laz to .las:
+
 3. Download this: https://rapidlasso.com/LAStools/
 
 4. Go into that folder, then from there, in terminal, run ‘make’. 

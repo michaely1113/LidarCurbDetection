@@ -1,0 +1,4 @@
+*.pyc
+Env/
+.DS_STORE
+.idea

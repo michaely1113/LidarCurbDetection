@@ -2,7 +2,27 @@
 
 Curb Detection Using Hough Transform on Lidar Data
 
-I've included sample data in `/sample`.
+I've included sample data in `/sample`. I've not been able to include Lidar data
+because of the Lidar file size/Github file size limit. See the section below `Data` to
+see how to gather Lidar data.
+
+### Getting Lidar Data
+1. Register and make account here:
+http://pugetsoundlidar.ess.washington.edu/lidardata/account.php
+
+2. Data is here: download any one of the *.laz files
+ http://pugetsoundlidar.ess.washington.edu/lidardata/restricted/las/pslc2016/KingCounty_Delivery_1/
+
+.laz is compressed version of .las. You usually work with .las. Here’s how to go from .laz to .las:
+3. Download this: https://rapidlasso.com/LAStools/
+
+4. Go into that folder, then from there, in terminal, run ‘make’. 
+
+5. Then, go into /bin, then run the executable `laszip`. It should open up a terminal: you can input a file path, and an output file path (.laz to .las)
+
+6. To visualize, here is a site that’s simple: http://lidarview.com/
+
+
 
 ### Quick Start
 
